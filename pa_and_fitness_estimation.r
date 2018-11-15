@@ -12,7 +12,7 @@ library(PAFit)
 
 # read data from the file and construct the network
 real_net1 <- graph_from_file("inputdata.txt")
-summary(real_net1)
+summary_2(real_net1)
 
 # generate summary statistics
 stats_real_net1 <- get_statistics(real_net1,binning=FALSE, deg_threshold=1)
